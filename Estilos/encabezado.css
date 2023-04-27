@@ -1,0 +1,78 @@
+/* Estilos Encabezado*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-escritorio{
+    background-color: #FFF;
+    padding: 0 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 70px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.header-logo:hover,
+.footer-logo:hover {
+    transform: translateY(-3px);
+}
+
+.header-nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid #64C0BA;
+    color: #64C0BA;
+    transition-duration: 100ms;
+}
+
+.menu-hamburguesa{
+    display: none;
+    font-size: 30px;
+    color: #C4C4C4;
+    background-color: #FFF;
+    border: none;
+}
+
+.menu-hamburguesa-nav{
+    display: none;
+}
+
+.menu-hamburguesa-nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #e5e5e5cc;
+}
+
+.visible{
+    display: block ;
+}
+
+@media (max-width: 700px) { 
+    header{
+        padding: 0;
+    }
+    .header-escritorio{
+        padding: 0 10px ;
+    }
+    .menu-hamburguesa{
+        display: block;
+    }
+    .header-nav{
+        display: none;
+    }
+}

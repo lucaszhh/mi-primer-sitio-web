@@ -1,0 +1,83 @@
+/* Estilos modificables de la sección informacion */
+
+/*  
+    background-color: nos permite modificar el color del fondo de la carta 
+    color: nos permite cambiar el color del texto de la carta
+*/
+
+article.info-card{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #C4C4C4;
+}
+
+article.info-card:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+/*  Estilos seccion informacion 
+    NO MODIFICAR
+*/
+
+section.information {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+article.info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+    width: 80%;
+
+}
+
+article.info-card:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+article.info-card img {
+    width: 30%;
+}
+
+article.info-card div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 700px) { 
+    section.information{ 
+        padding: 0;
+    }
+    article.info-card{
+        flex-direction: column;
+        border-radius: 0;
+        width: 100%;
+        gap: 5px;
+        padding: 10px 15px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #000;
+        /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    }
+    article.info-card img {
+        width: 100%;
+    }
+    article.info-card div {
+        width: 100%;
+    }
+    article.info-card:hover{
+        transform: none;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}

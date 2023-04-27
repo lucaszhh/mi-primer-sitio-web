@@ -1,0 +1,48 @@
+/* Estilos modificables de la sección carrusel */
+
+/*  
+    background-color: nos permite modificar el color del fondo de la seccion carrusel 
+*/
+
+section.carrusel{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*  Estilos seccion carrusel 
+    NO MODIFICAR
+*/
+
+section.carrusel {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+section.carrusel div {
+    width: 33.33%;
+    min-height: 350px;
+    height: auto;
+    max-height: 500px;
+    background-size: cover;
+    transition-duration: 500ms;
+}
+
+section.carrusel div:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) { 
+    section.carrusel{
+        flex-direction: column;
+        gap: 5px;
+    }
+    section.carrusel div{
+        width: 100%;
+    }
+    section.carrusel div:hover{
+        transform: none;
+        box-shadow: none;
+    }
+}

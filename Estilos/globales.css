@@ -1,0 +1,70 @@
+@import url("./encabezado.css");
+@import url("./banner.css");
+@import url("./fotos-carrusel.css");
+@import url("./carrusel.css");
+@import url("./informacion.css");
+@import url("./pie-de-pagina.css");
+@import url("./contacto.css");
+
+/* Estilos Globales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../logosConectar/fondoConectarLab.png");
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 25px;
+}
+
+/* Estilos utiles */
+
+.section-title {
+    text-align: center;
+}
+
+.reverse-flexrow {
+    flex-direction: row-reverse;
+}
+
+
+@media (max-width: 700px) { 
+    body{
+        text-align: center;
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    section{
+        padding: 5px 10px;
+    }
+}

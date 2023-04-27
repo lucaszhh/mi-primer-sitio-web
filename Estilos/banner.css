@@ -1,0 +1,55 @@
+/* Estilos modificables de la sección banner */
+
+/*  
+    background-color: nos permite modificar el color del fondo del banner 
+    color: nos permite cambiar el color del texto del banner
+*/
+
+section.banner{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Color titulo del banner */
+section.banner h1{
+    color: #000;
+}
+
+/* Color descripcion del banner */
+section.banner p{
+    color: #000;
+}
+
+
+/*  Estilos seccion banner 
+    NO MODIFICAR
+*/
+
+section.banner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+section.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    height: auto;
+    width: 50%;
+}
+
+section.banner img {
+    width: 40%;
+}
+
+@media (max-width: 700px) { 
+    section.banner{
+        flex-direction: column-reverse;
+    }
+    section.banner div,
+    section.banner img{
+        width: 100% ;
+    }
+}

@@ -1,0 +1,24 @@
+/* Estilos Carrusel */
+
+/* Es en este archivo en el que debemos modificar las url de las imagenes, 
+cada una de las url representa la ruta hacia cada una de las imagenes, unicamente hay
+que modificar la ruta con la nueva ruta de nuestro personaje.
+
+    background: url("") center no-repeat;
+
+la nueva ruta debe estar dentro de las comillas
+
+*/
+
+
+.carrusel-img {
+    background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
+}
+
+.carrusel-img1 {
+    background: url("../logosConectar/logoConectarLabRosado.png") center no-repeat;
+}
+
+.carrusel-img2 {
+    background: url("../logosConectar/logoConectarLabCeleste.png") center no-repeat;
+}
