@@ -1,6 +1,11 @@
+<p align="center">
+   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=23&duration=3000&pause=1000&color=F78304&background=484848&center=true&vCenter=true&width=500&lines=lucaszhh;Mi+primer+sitio+web...;Bienvenidx;Espero+crees+la+mejor+p%C3%A1gina!!;lucaszhh" alt="Typing SVG" /></a>
+</p>  
+<h2 align="center">
+   Crea tu primer sitio web responsive con HTML y CSS siguiendo esta guía. <br> <br> Exitos!!
+</h2>
 
-# mi-primer-sitio-web
-## Crea tu primer sitio web responsive con HTML y CSS siguiendo esta guía. <br> <br> Exitos!!
+
 En este encuentro de programación nos encontraremos con HTML (lenguaje de estructura) y CSS (lenguaje de estilos). La idea es poder crear nuestro primer sitio web a partir de un template, como objetivo debemos de elegir un personaje, dibujo, anime, película, serie o tema de interés que les agrade y puedan crear así el sitio web de agrado. 
 
 ### CONTENIDOS:
